@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Bento-style</title>
+  <style type="text/tailwindcss">
+    @theme{
+            --color-colorbor:#262626;
+            --color-orangee:#F35034;
+            --font-inter:"Inter";
+            --color-grad1:#E63E21;
+            --color-grad2:#33130E;
+            --color-bgcolor:#1B1B1B;
+            --color-coco:#C0C0C0;
+        }
+    </style>
+</head>
+
+<body class="p-0 mx-5 box-border bg-[#161616] ">
+  <header class="flex py-4 mt-5 ">
+    <div class="  rounded-full  border-4 bg-cover   border-colorbor "><img
+      class="bg-bgcolor p-2 size-max rounded-3xl hover:rotate-[45deg]" src="./assests/img/x.svg" alt=""></div>
+    <nav class="list-none flex border-4 bg-bgcolor  border-colorbor lg:px-15 px-5 rounded-full items-center w-full ">
+      <ul class="justify-between w-full flex   ">
+        <a class="font-[inter] font-bold hover:text-orangee text-coco " href="#">ABOUT</a>
+        <a class="font-[inter] font-bold hover:text-orangee text-coco hidden lg:block " href="#">PORTFOLIO</a>
+        <a class="font-[inter] hover:text-orangee text-coco font-bold hidden lg:block " href="#">CONTACT</a>
+        <img class="lg:hidden " src="./assests/img/hamburger menu.svg" alt="">
+      </ul>
+    </nav>
+  </header>
+  <!-- menu -->
+  <div name="MENUSECTI0N1" class=" rounded-2xl border  border-colorbor px-2 bg-bgcolor py-2 ">
+    <div class=" flex lg:justify-between text-coco lg:flex-row lg:mt-6 mx-4 flex-col-reverse">
+      <p class="lg:text-[24px] text-[16px]  font-inter cursor-default">UI/UX Designer </p>
+      <div class="flex rounded-full  border-colorbor lg:h-6 h-auto w-30 lg:w-40 justify-center items-center gap-2 text-[#C0C0C0] border-1 ">
+        <img class="size-2" src="./assests/img/dot red.svg" alt="">
+        <p class="font-inter  text-[9px] lg:text-[13px] cursor-default">AVAILABLE FOR JOB</p>
+      </div>
+    </div>
+    <div class="flex lg:justify-between text-coco lg:mt-17 lg:mb-6 lg:flex-row-reverse flex-col justify-center">
+      <!-- img profile -->
+      <div
+        class="rounded-full bg-[#3F3E3E] mt-7 mx-4   lg:mt-auto w-ful size-20 lg:size-44 lg:p-3 p-[5px]  justify-items-center cursor-pointer">
+        <img class="justify-center items-center " src="./assests/img/imgprofile.svg" alt="">
+      </div>
+      <!-- end -->
+      <div class="flex flex-col gap-y-3 mx-4">
+        <h1 class="font-inter text-[#FFFFFF] text-bold text-[24px] lg:text-[36px]">I’m Zainab Nisa</h1>
+        <p class="font-inter text-coco text-bold text-[16px] lg:text-[20px]">I design digital products with <br>great
+          experience.</p>
+        <div class="flex lg:mx- flex-row ">
+
+      <div class="rounded-[15px]  lg:h-10 lg:w-[150px] border-2  border-black  flex border-transparent object-cover justify-center items-center">
+            <button type="button"
+              class="flex rounded-l-lg lg:hover:shadow-orange-600  bg-grad1  
+            shadow-inner hover:shadow-[1px_1px_50px_1px_grad1] lg:size-auto text-[11px] lg:text-[16px] font-inter bg-[#161616] border border-colorbor border-r-black bg-cover  justify-center items-center px-2 py-2 text-white cursor-progress ">Hire
+              me</button>
+            <button type="button"
+              class="flex  rounded-r-lg font-inter h-[34px] lg:h-auto  bg-grad1   bg-[#161616] border border-colorbor bg-cover  justify-center items-center px-2 py-2 text-white cursor-pointer border-l-black  ">+</button>
+          </div>
+          <div
+            class="rounded-[15px]  lg:h-10 lg:w-[150px] border-2  flex border-transparent object-cover justify-center items-center">
+            <button type="button"
+              class="flex rounded-l-lg lg:hover:shadow-orange-600 
+            shadow-inner hover:shadow-[1px_1px_50px_1px_grad1] size-auto text-[11px] lg:text-[16px] font-inter bg-[#161616] border border-colorbor bg-cover  justify-center items-center px-2 py-2 text-white cursor-progress ">Copy
+              Email</button>
+            <button type="button"
+              class="flex rounded-r-lg font-inter  bg-[#161616] border border-colorbor bg-cover  justify-center items-center px-2 py-2 text-white cursor-pointer"><img
+                class="h-[17px] lg:h-[24px] " src="./assests/img/ph_copy.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- part2 -->
+
+  <div
+    class=" gap-2 flex flex-col mt-3 rounded-2xl border border-colorbor px-5 bg-bgcolor py-4 font-inter  text-coco  text-[16px] ">
+    <div class="gap-2 justify-start items-center mb-4 flex">
+      <div class="size-[7px] bg-coco rounded-full border border-coco"></div>
+      <div class=" font-medium  lg:text-[24px] lg:font-semibold cursor-default"> Recent work</div>
+    </div>
+    <div class=" gap-0 flex flex-col relative space-y-1 ">
+      <p class="cursor-pointer hover:text-orangee cursor-nocopy lg:text-[24px] lg:font-semibold">Product designer</p>
+      <p class="cursor-pointer  hover:text-orangee text-15px lg:text-[20px] lg:font-normal">2023 - Present</p>
+      <span class="cursor-pointer hover:text-orangee font-normal absolute bottom-5 left-70 lg:text-[20px] lg:font-normal">Figma</span>
+    </div>
+    <div class=" gap-0 flex flex-col relative space-y-1 ">
+      <p class="cursor-pointer hover:text-orangee cursor-nocopy lg:text-[24px] lg:font-semibold">UI/UX designer</p>
+      <p class="cursor-pointer  hover:text-orangee text-15px lg:text-[20px] lg:font-normal">2021 - 2022</p>
+      <span class="cursor-pointer hover:text-orangee font-normal  absolute bottom-5 left-70 lg:text-[20px] lg:font-normal">Google</span>
+    </div>
+    <div class=" gap-0 flex flex-col relative space-y-1 ">
+      <p class="cursor-pointer hover:text-orangee cursor-nocopy lg:text-[24px] lg:font-semibold">Product designer</p>
+      <p class="cursor-pointer  hover:text-orangee text-15px lg:text-[20px] lg:font-normal ">2023 - Present</p>
+      <span class="cursor-pointer hover:text-orangee font-normal absolute bottom-5 left-70 lg:text-[20px] lg:font-normal">Figma</span>
+    </div>
+    <div class=" gap-0 flex flex-col relative space-y-1 ">
+      <p class="cursor-pointer hover:text-orangee cursor-nocopy lg:text-[24px] lg:font-semibold ">Product designer</p>
+      <p class="cursor-pointer  hover:text-orangee text-15px lg:text-[20px] lg:font-normal">2023 - Present</p>
+      <span class="cursor-pointer hover:text-orangee font-normal absolute bottom-5 left-70 lg:text-[20px] lg:font-normal">Figma</span>
+    </div>
+  </div>
+  <!-- box1 end -->
+  <div
+    class="flex flex-col  py-8 justify-center font-inter lg:text-[24px] cursor-pointer lg:font-semibold  border border-colorbor bg-bgcolor hover:text-grad1 items-center rounded-2xl text-[16px] font-medium  text-coco my-3">
+    Product design</div>
+  <div class="flex space-x-6">
+    <div
+      class="flex flex-1 justify-center hover:text-grad1 items-center cursor-pointer lg:text-[24px] lg:font-semibold w-auto h-auto text-[16px] font-medium text-coco flex-col px-3 py-9 rounded-2xl border border-colorbor bg-bgcolor">
+      User Experience</div>
+    <div
+      class="flex flex-1 justify-center hover:text-grad1 cursor-pointer items-center lg:text-[24px] lg:font-semibold  w-auto h-auto text-[16px] font-medium text-coco flex-col px-3 py-9 rounded-2xl border border-colorbor bg-bgcolor">
+      NoCode develop</div>
+  </div>
+  <div class="flex flex-col px-3 py-6  text-4xl my-3 font-inter rounded-2xl border border-colorbor bg-bgcolor">
+    <div class="flex flex-col relative text-coco">
+      <p class="text-[16px] leading-9  font-semibold lg:text-[24px] lg:font-semibold cursor-default" >iOS Mobile app </p>
+      <p class="font-light text-[12px] lg:text-[20px] lg:font-normal cursor-not-allowed ">Product develop</p>
+      <div class="flex bg-grad1 absolute left-77 top-2 rounded-full lg:w-9 w-6  border justify-center items-center border-black hover:inset-shadow-ls"> <button type="button" id="button"  class="cursor-pointer"><img class="lg:size-9 size-6 lg:p-2 p-1" src="./assests/img/Vector.svg" alt="">
+      </button>
+      </div>
+    </div>
+    <div class="overflow-y-scroll mt-8 flex cursor-not-allowed justify-center items-center">
+        <img src="./assests/img/iPhone Space gray.svg " />
+    </div>
+  </div>
+  <div class="flex flex-col px-3 py-3 relative text-[16px] text-coco rounded-2xl border border-colorbor bg-bgcolor">
+    <p class="text-[16px] leading-7  font-semibold lg:text-[24px] lg:font-semibold cursor-default">AI Music product</p>
+      <p class="font-light text-[12px] lg:text-[20px] lg:font-normal cursor-not-allowed ">UX Case study</p>
+      <div class="flex bg-grad1 absolute left-77 top-2 rounded-full lg:w-9 w-6  border justify-center items-center border-black hover:inset-shadow-ls"> <button type="button" id="button"  class="cursor-pointer"><img class="lg:size-9 size-6 lg:p-2 p-1" src="./assests/img/Vector.svg" alt=""></button>
+      </div>
+    <div name="images" class=" flex  my-7  h-40 w-42 justify-center items-center ml-20">
+        <img class="lg:size-100  " src="./assests/img/tof1.svg" alt="">
+    </div>
+      
+      
+  </div>
+  <div class="flex flex-col my-3 px-3 py-3 relative text-[16px] text-coco rounded-2xl border border-colorbor bg-bgcolor">
+    <p class="text-[16px] leading-7  font-semibold lg:text-[24px] lg:font-semibold cursor-default">AI Music product</p>
+      <p class="font-light text-[12px] lg:text-[20px] lg:font-normal cursor-not-allowed ">UX Case study</p>
+      <div class="flex bg-grad1 absolute left-77 top-2 rounded-full lg:w-9 w-6  border justify-center items-center border-black hover:inset-shadow-ls"> <button type="button" id="button"  class="cursor-pointer"><img class="lg:size-9 size-6 lg:p-2 p-1" src="./assests/img/Vector.svg" alt=""></button>
+      </div>
+      <div name="images" class=" flex  my-7  h-40 w-42 justify-center items-center ml-20">
+        <img class="lg:size-200" src="./assests/img/tof2.svg" alt="">
+      </div>
+      
+  </div>
+  <div class="flex flex-col  px-3 py-3 text-4[16px] lg:flex-row-reverse lg:justify-between lg:py-10 gap-y-4 justify-center items-center  rounded-2xl border border-colorbor bg-bgcolor">
+    <div class="flex rounded-full  border-colorbor  w-42 justify-center items-center gap-2 text-[#C0C0C0] border-1 ">
+      <img class="size-2" src="./assests/img/dot red.svg" alt="">
+      <p class="font-inter  text-[9px] lg:text-[13px] cursor-default">AVAILABLE FOR JOB</p>
+    </div>
+    <div class="flex    ">
+      <ul class="flex  list-none">
+        <li class="flex text-[16px] lg:gap-4 gap-7 text-coco font-normal font-inter lg:text-[20px]">
+          <a href="#" class="hover:text-grad1">Twitter</a>
+          <a href="#" class="hover:text-grad1">Instagram</a>
+          <a href="#" class="hover:text-grad1">LinkdIn</a>
+        </li>
+      </ul>
+    </div>
+    <p class="hover:text-grad1 flex text-coco cursor-default font-normal font-inter lg:text-2xl">Portfolio 2024</p>
+  </div>
+
+</body>
+
+</html>
